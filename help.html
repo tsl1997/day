@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>帮助-陶森林</title>
+	</head>
+	<body>
+		<h2>这是非官方非正式的<br/>html帮助手册</h2>
+		<table border="1" cellspacing="0" style="height:100 ;width: 200;text-align: center;" cellpadding="10">
+			<tr bgcolor="deepskyblue">
+				<th>中文名</th>
+				<th>实现代码</th>
+				<th>备注说明</th>
+			</tr>
+			<tr>
+				<td>换行</td>
+				<td>&lt;br/&gt;</td>
+				<td>行间距较小</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>分割线</td>
+				<td>&lt;hr/&gt;</td>
+				<td>可用size设置粗细</td>
+			</tr>
+			<tr>
+				<td>段落</td>
+				<td>&lt;p&gt; &emsp; &lt;p/&gt;</td>
+				<td>比br行间距大</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>标题</td>
+				<td>&lt;h1&gt;</td>
+				<td>h1-6后面数字越大,字号越小</td>
+			</tr>
+			<tr>
+				<td>水平对齐</td>
+				<td>align</td>
+				<td>left（居左） center（居中） right（居右）</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>超链接</td>
+				<td>&lt;a href="网址"&gt;&lt;/a&gt;</td>
+				<td>网址要带上http://或https://<br/>
+					可用#留空，相当于F5
+				</td>
+			</tr>
+			<tr>
+				<td>新窗口打开</td>
+				<td>target</td>
+				<td>_blank保留原网页，链接新窗口打开</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>图片</td>
+				<td>&lt;img src="图片路径"&gt;</td>
+				<td>建议图片使用相对路径</td>
+			</tr>
+			<tr>
+				<td>锚标记</td>
+				<td>&lt;a name="锚名称"&gt;&lt;/a&gt; <br/>
+					&lt;a href="#锚名称"&gt;&lt;/a&gt;
+				</td>
+				<td>name锚定，href引用锚定位置，记得#<br/>
+				跨网页锚定时在#前输入锚所在的网页路径
+				</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>字体</td>
+				<td>&lt;font&gt; &lt;/font&gt;</td>
+				<td>size="字号(1-7)" <br/>
+					color="字体颜色" <br/>
+					face="字体外观（即字体名称）"
+				</td>
+			</tr>
+			<tr>
+				<td>加粗</td>
+				<td>&lt;b&gt; &lt;/b&gt;<br />
+					&lt;strong&gt; &lt;/strong&gt;
+				</td>
+				<td>搜索引擎 strong着重强调语义</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>上标 <br/>
+					下标
+				</td>
+				<td>&lt;sup&gt; &lt;/sup&gt;<br/>
+					&lt;sub&gt; &lt;/sub&gt;
+				</td>
+				<td>中间插入需要标注的文本即可<br/>
+					平方立方可用&amp;sup2; &amp;sup3;
+				</td>
+			</tr>
+			<tr>
+				<td>删除线</td>
+				<td> &lt;s&gt; &lt;/s&gt;<br />
+				    &lt;del&gt; &lt;/del&gt;
+				</td>
+				<td>中间插入文本即可</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>下划线</td>
+				<td>&lt;u&gt; &lt;/u&gt;<br />
+				    &lt;ins&gt; &lt;/ins&gt;					
+				</td>
+				<td>同上</td>
+			</tr>
+			<tr>
+				<td>表格</td>
+				<td>&lt;table&gt; &lt;/table&gt;</td>
+				<td>请看下条</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>行</td>
+				<td>&lt;tr&gt; &lt;/tr&gt;</td>
+				<td>先有表,再有行,再有单元格</td>
+			</tr>
+			<tr>
+				<td>单元格</td>
+				<td>&lt;td&gt; &lt;/td&gt;</td>
+				<td>注意：标题单元格叫th</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>边框</td>
+				<td>border</td>
+				<td>设置表格的边框线，线粗细，单位px 通常就是1px</td>
+			</tr>
+			<tr>
+				<td>间隙</td>
+				<td>cellspacing</td>
+				<td>设置单元格与单元格之间的空间。通常设置0px</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>间距</td>
+				<td>cellpadding</td>
+				<td>单元格边框与内容之间的最小间距</td>
+			</tr>
+			<tr>
+				<td>背景颜色</td>
+				<td>bgcolor</td>
+				<td>英文单词  rgb 十六进制</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td>表格标题</td>
+				<td>&lt;caption&gt; &lt;/caption&gt;</td>
+				<td>自动居中，不变粗</td>
+			</tr>
+			<tr>
+				<td>表格单元格合并</td>
+				<td>colspan="被合并的格子数量"<br />
+				    rowspan="被合并的格子数量"
+				</td>
+				<td>跨列合并<br/>
+					跨行合并<br />
+					合并请注意原表格有无溢出部分
+				</td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr bgcolor="pink">
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		
+	</body>
+</html>
