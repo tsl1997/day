@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>1网易邮箱</title>
+	</head>
+
+	<body>
+		<!--
+			把页面分成三个部分：1和3：图片 +文字
+			2：一行表格，两个单元格；
+			第一个单元放一张图片，加上无序列表（文字）
+			第二个单元格里面再套上一层，把表单放进来，顺便带上边框
+		-->
+		<img src="img/163logo.gif" />
+		<div align="center">免费邮 企业邮 VIP邮箱 帮助 </div>
+		<p>
+			<table>
+				<tr>
+					<td>
+						<img src="img/imap.jpg" />
+						<p>
+							<ul>
+								<li>163/126/yeah三大免费邮箱均默认开放</li>
+								<li>全面支持iPhone/iPad及Android等系统</li>
+								<li>客户端、手机与网页，实现发送、阅读邮件<br/> 立即同步普通登录手机号登录
+								</li>
+							</ul>
+						</p>
+					</td>
+					<td style="border: 1px solid black;">
+						<p>
+							<img src="img/loginIcon.gif" /><b>&nbsp;普通登录 </b>
+						</p>
+						<form action="#" method="post">
+							<table cellpadding="10">
+								<tr>
+									<td>用户名</td>
+									<td><input name="uesrname" type="text" required style="width:150px ;" />@163.com</td>
+								</tr>
+								<tr>
+									<td>密&emsp;码</td>
+									<td><input name="password" type="password" required style="width:150px ;" /></td>
+								</tr>
+								<tr>
+									<td>版&emsp;本</td>
+									<td>
+										<select name="version">
+											<option value="default" selected>默认</option>
+											<option value="swift">极速</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<input type="checkbox" name="login" value="autologin" />自动登录
+										<input type="checkbox" name="login" value="ssl" checked/>SSL
+									</td>
+								</tr>
+								<tr>
+									<td></td>
+									<td>
+										<input type="submit" value="登录" />&emsp;
+										<input type="submit" value="注册" />
+									</td>
+								</tr>
+							</table>
+						</form>
+					</td>
+				</tr>
+			</table>
+		</p>
+		<img src="img/netease_logo.gif" /> 关于网易 免费邮 官方博客 客户服务 隐私政策 | 网易公司版权所有 &copy; 1997-2011
+	</body>
+
+</html>

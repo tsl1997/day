@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>5QQ资料</title>
+	</head>
+	<body>
+		<!--写一个QQ资料的编辑页面,添加了一个修改按钮来提交数据-->
+		<form action="#" method="post">
+		<h3>基础信息</h3>
+		<hr />
+		<p>
+			昵&emsp;&emsp;称：<input name="uesrname" type="text" required style="width:200px ;"/>
+			性&emsp;&emsp;别：<select name="gender" style="width:100px ;">
+					<option value="boy" selected>男</option>
+					<option value="girl">女</option>
+			</select>
+		</p>
+		<p>
+			生&emsp;&emsp;日：<input name="day" type="date" style="width:200px ;" />
+			血&emsp;&emsp;型：<select name="blood" style="width:100px ;">
+					<option value="A" selected>A型</option>
+					<option value="B">B型</option>
+					<option value="AB">AB型</option>
+					<option value="O">O型</option>
+					<option value="other">其他血型</option>
+			</select>
+		</p>
+		<p>
+			签&emsp;&emsp;名：<input name="signature" type="text" style="width:400px ;height: 40px;"/>
+		</p>
+		
+		<h3>填写教育经历发现校友</h3>
+		<hr />
+		<p>尚未添加教育经历</p>
+		
+		<h3>更多资料</h3>
+		<hr />
+		<p>
+			职&emsp;&emsp;业：<select name="status" style="width:400px ;">
+					<option value="1" selected>计算机/互联网/通信</option>
+					<option value="2">生产/工艺/制造</option>
+					<option value="3">医疗/护理/制药</option>
+					<option value="4">金融/银行/投资/保险</option>
+					<option value="5">商业/服务业/个体经营</option>
+					<option value="6">文化/广告/传媒</option>
+					<option value="7">娱乐/艺术/表演</option>
+					<option value="8">律师/法务</option>
+					<option value="9">学生/教师</option>
+					<option value="10">其他</option>
+			</select>
+		</p>
+		<p>
+			公&emsp;&emsp;司：<input name="COM" type="text" style="width:400px ;"/>
+		</p>
+		<p>
+			所在地区：<input name="hometown" type="text" style="width:400px ;"/>
+		</p>
+		<p>
+			故&emsp;&emsp;乡：<input name="hometown" type="text" style="width:400px ;"/>
+		</p>
+		<p>
+			<!--因为手机号为11位数，且以1开头，所以取值范围设置如下。-->
+			手&emsp;&emsp;机：<input name="phone" type="number" min="10000000000" max="19999999999" style="width:400px ;"/>
+		</p>
+		<p>
+			<!--验证是否存在@-->
+			邮&emsp;&emsp;箱：<input name="email" type="email" style="width:400px ;"/>
+		</p>
+		<p>
+			个人说明：<textarea rows="4" cols="60"></textarea>
+		</p>
+		
+		<p><input type="submit" value="修        改" /></p>
+		</form>
+	</body>
+</html>
